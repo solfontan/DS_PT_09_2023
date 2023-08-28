@@ -7,41 +7,41 @@ Autor: Juan Maniglia
 ## Descripción
 Bienvenidos al repositorio del Bootcamp de Data Science. Este programa abarca desde lo más básico hasta conceptos avanzados en cuatro módulos principales:
 
-- Ramp-Up
-- Data Analysis
-- Machine Learning
-- Data Engineering
+- ***Ramp-Up***
+- ***Data Analysis***
+- ***Machine Learning***
+- ***Data Engineering***
 
 Las tecnologías y bibliotecas que se utilizarán incluyen Python, Markdown, Git, GitHub, numpy, pandas, scikit-learn, TensorFlow, Keras, Azure, Docker, FastAPI, Flask, PythonAnywhere, Streamlit, GitHub Actions, Power BI y PySpark.
 
 ## Contenido
 
-- Ramp-Up:
-Introducción a Python
-Markdown para documentación
-Uso de Git y GitHub
+- **Ramp-Up:**
+1. Introducción a Python
+2. Markdown para documentación
+3. Uso de Git y GitHub
 
-- Data Analysis:
-Estadística básica y avanzada
-Manipulación de datos con numpy y pandas
-Web Scraping y APIs
-Visualización de datos
-Bases de datos y SQL
+- **Data Analysis:**
+1. Estadística básica y avanzada
+2. Manipulación de datos con numpy y pandas
+3. Web Scraping y APIs
+4. Visualización de datos
+5. Bases de datos y SQL
 
-- Machine Learning:
-Aprendizaje supervisado
-Aprendizaje no supervisado
-Series temporales
-Deep Learning con TensorFlow y Keras
+- **Machine Learning:**
+1. Aprendizaje supervisado
+2. Aprendizaje no supervisado
+3. Series temporales
+4. Deep Learning con TensorFlow y Keras
 
-- Data Engineering:
-Azure para la administración de datos
-Docker para contenerización
-Desarrollo de APIs con FastAPI y Flask
-Despliegue con PythonAnywhere y Streamlit
-Automatización con GitHub Actions
-Visualización avanzada con Power BI
-Procesamiento de datos con PySpark
+- **Data Engineering:**
+1. Azure para la administración de datos
+2. Docker para contenerización
+3. Desarrollo de APIs con FastAPI y Flask
+4. Despliegue con PythonAnywhere y Streamlit
+5. Automatización con GitHub Actions
+6. Visualización avanzada con Power BI
+7. Procesamiento de datos con PySpark
 
 ## Requisitos
 
