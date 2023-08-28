@@ -2,6 +2,8 @@
 
 Autor: Juan Maniglia
 
+![](DataScience.png)
+
 ## Descripción
 Bienvenidos al repositorio del Bootcamp de Data Science. Este programa abarca desde lo más básico hasta conceptos avanzados en cuatro módulos principales:
 
