@@ -8,11 +8,13 @@ app.config.from_object("config")
 
 @app.route('/')
 def index():
-    return render_template('home.html')
+    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']  # Definir la lista
+    return render_template('home.html', mylist=mylist)  # Pasar la lista a la plantilla
+
 
 @app.route("/user/<name>")
 def index4(name):
-    index=1
+    index = 1
     mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']
     mydict = {'key': 'valor'}
     mytuple = ('tuple1', 'tuple2', 'tuple3', 'tuple4')
@@ -27,8 +29,6 @@ def nombres():
 def index1():
     return "<h1>Rodrigo estuvo aquí!</h1>"
 
-print('esto no funciona')
-
 @app.route(f"/user/{app.config['BCRYPT_LOG_ROUNDS']}/<name>")
 def user(name):
     return "<h1>Hello, {}!</h1>".format(name)
@@ -41,4 +41,4 @@ def index2(name, ind):
     return jsonify(name=name, myindex=ind, mylist=mylist, mydict=mydict, mytuple=mytuple)
 
 if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0", port=8910)
+    app.run(debug=True, host="0.0.0.0", port=8910)
